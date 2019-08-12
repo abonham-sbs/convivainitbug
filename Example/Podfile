@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ConvivaInitBug_Example' do
+  pod 'ConvivaInitBug', :path => '../'
+
+  target 'ConvivaInitBug_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
