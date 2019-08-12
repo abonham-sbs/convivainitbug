@@ -1,13 +1,10 @@
 # ConvivaInitBug
 
-[![CI Status](https://img.shields.io/travis/Aaron Bonham/ConvivaInitBug.svg?style=flat)](https://travis-ci.org/Aaron Bonham/ConvivaInitBug)
-[![Version](https://img.shields.io/cocoapods/v/ConvivaInitBug.svg?style=flat)](https://cocoapods.org/pods/ConvivaInitBug)
-[![License](https://img.shields.io/cocoapods/l/ConvivaInitBug.svg?style=flat)](https://cocoapods.org/pods/ConvivaInitBug)
-[![Platform](https://img.shields.io/cocoapods/p/ConvivaInitBug.svg?style=flat)](https://cocoapods.org/pods/ConvivaInitBug)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+As soon as the project starts on device or in the simulator, Conviva will crash with the error *** Terminating app due to uncaught exception 'StreamerTypeError', reason: 'AVPlayer NOT supported'**
 
 ## Requirements
 
