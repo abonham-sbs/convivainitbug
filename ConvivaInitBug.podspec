@@ -31,6 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ConvivaInitBug/Classes/**/*'
+
+  s.subspec 'AnalyticsManager' do |sp|
+      sp.ios.vendored_frameworks = ['ConvivaInitBug/Vendor/iOS/ConvivaAVFoundation.framework', 'ConvivaInitBug/Vendor/iOS/ConvivaCore.framework']
+      sp.frameworks = ['CoreMedia', 'SystemConfiguration', 'MobileCoreServices']
+      sp.ios.framework = 'CoreTelephony'
+  end
   
   # s.resource_bundles = {
   #   'ConvivaInitBug' => ['ConvivaInitBug/Assets/*.png']

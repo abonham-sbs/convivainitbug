@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6150F4802AE02150162FA98B /* Pods-ConvivaInitBug_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvivaInitBug_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ConvivaInitBug_Tests/Pods-ConvivaInitBug_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C1FEF8A1A67DDBDC5BFE2BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7DA0FD9AA1D22E1BBDC80B27 /* ConvivaInitBug.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ConvivaInitBug.podspec; path = ../ConvivaInitBug.podspec; sourceTree = "<group>"; };
+		6C1FEF8A1A67DDBDC5BFE2BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7DA0FD9AA1D22E1BBDC80B27 /* ConvivaInitBug.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ConvivaInitBug.podspec; path = ../ConvivaInitBug.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		881BEEB43C9BBAB902044EE5 /* Pods-ConvivaInitBug_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConvivaInitBug_Tests.release.xcconfig"; path = "Target Support Files/Pods-ConvivaInitBug_Tests/Pods-ConvivaInitBug_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DE7864F2B7008901DE8ED182 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DE7864F2B7008901DE8ED182 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				6150F4802AE02150162FA98B /* Pods-ConvivaInitBug_Tests.debug.xcconfig */,
 				881BEEB43C9BBAB902044EE5 /* Pods-ConvivaInitBug_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

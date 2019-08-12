@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4B0F0338D726614415F6C802F48FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		15812709CA2F640F976AEFD63A2D47B6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BB5477FCC1FA79F64E8E8E184EE5E /* ReplaceMe.swift */; };
+		1D21064F9B97A0423FC1DADB69C828A7 /* Pods-ConvivaInitBug_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F3D6D40F74C270CA6D4C19272EF5AF /* Pods-ConvivaInitBug_Example-dummy.m */; };
+		2D04AC660F4F1961A62D6B5384F15020 /* ConvivaInitBug-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FD62C048AC2FCF61663A66BFA61B9E /* ConvivaInitBug-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75D3C354135C047C1EC9A2698F78A917 /* Pods-ConvivaInitBug_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D808C158454FED67DA82F48EEC3E88 /* Pods-ConvivaInitBug_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E1A10C674D09175485D3FE6D414A1B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CEF7E8BBCA215CC1A87C4CC501FB1948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CFEEDF63E5DD504D7844588A0541F533 /* ConvivaInitBug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDC3EE91F18BE0D1D6992585ED6F6E /* ConvivaInitBug-dummy.m */; };
+		DF1BE523253FA7C83577AFE545D3279C /* Pods-ConvivaInitBug_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FD49C5B1AFA2F04F50BA0219A541FC /* Pods-ConvivaInitBug_Tests-dummy.m */; };
+		F3C964A72CB47762A7649F8E78F50A5F /* Pods-ConvivaInitBug_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7BE67471F0136A8761E52B6148DCDF /* Pods-ConvivaInitBug_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2003EAEAB74487A6F62CE1DE0C2413A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617E38684E9F8E4ECFD217B7BD533F89;
+			remoteInfo = "Pods-ConvivaInitBug_Example";
+		};
+		D0569A8EB154692E57F36DB88B4184E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD1B72C0995DA3330563DD5DA5D391C;
+			remoteInfo = ConvivaInitBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CEF7F0C92726CD9CD0E1065EC634530 /* Pods-ConvivaInitBug_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConvivaInitBug_Tests.modulemap"; sourceTree = "<group>"; };
+		113EFA8470D410716F737228BEF3C7D9 /* ConvivaCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConvivaCore.framework; path = ConvivaInitBug/Vendor/iOS/ConvivaCore.framework; sourceTree = "<group>"; };
+		1427B9B25CCC6D6CC3075C61E6839A2C /* Pods_ConvivaInitBug_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConvivaInitBug_Tests.framework; path = "Pods-ConvivaInitBug_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADBC8ED4A5BED18CB4720B3C7D47214 /* Pods-ConvivaInitBug_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvivaInitBug_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F18FEDD955431F1B320A72692406EA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4AD8250DB05031CD556A075D69369F3D /* Pods-ConvivaInitBug_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConvivaInitBug_Example.modulemap"; sourceTree = "<group>"; };
+		4B140ECBD0A2847669A9D1F2B665276B /* Pods-ConvivaInitBug_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvivaInitBug_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0BB5477FCC1FA79F64E8E8E184EE5E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ConvivaInitBug/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		685CE5A396E7C7B002E8CF779320AAF8 /* ConvivaInitBug.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ConvivaInitBug.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69FD49C5B1AFA2F04F50BA0219A541FC /* Pods-ConvivaInitBug_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConvivaInitBug_Tests-dummy.m"; sourceTree = "<group>"; };
+		6A2F8E841BE86BE0C827323353BEBBDB /* ConvivaInitBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConvivaInitBug.framework; path = ConvivaInitBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEDC3EE91F18BE0D1D6992585ED6F6E /* ConvivaInitBug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConvivaInitBug-dummy.m"; sourceTree = "<group>"; };
+		6BD8C559FA90228D0928CDF47CB18DEC /* Pods-ConvivaInitBug_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConvivaInitBug_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E64E49638C7914B417153BAAD4FAF44 /* Pods-ConvivaInitBug_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConvivaInitBug_Tests-Info.plist"; sourceTree = "<group>"; };
+		79F7FE8EAD8BEBC1D7879500A76162F9 /* Pods-ConvivaInitBug_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConvivaInitBug_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D66657D721AC6ED6E6A58950CA7B1F6 /* ConvivaAVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConvivaAVFoundation.framework; path = ConvivaInitBug/Vendor/iOS/ConvivaAVFoundation.framework; sourceTree = "<group>"; };
+		87BE16A3F7483FB5E21EE1806F355642 /* ConvivaInitBug.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConvivaInitBug.modulemap; sourceTree = "<group>"; };
+		87D808C158454FED67DA82F48EEC3E88 /* Pods-ConvivaInitBug_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConvivaInitBug_Tests-umbrella.h"; sourceTree = "<group>"; };
+		87E8754F7031E0C3838BC8356C6F0624 /* Pods-ConvivaInitBug_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConvivaInitBug_Example-Info.plist"; sourceTree = "<group>"; };
+		8D7BE67471F0136A8761E52B6148DCDF /* Pods-ConvivaInitBug_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConvivaInitBug_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFFF58B1C3C0236BE7A66EEE44FCD1F3 /* ConvivaInitBug-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConvivaInitBug-prefix.pch"; sourceTree = "<group>"; };
+		B01A8A7EB15BB56F406C70D8DC5E01F1 /* Pods-ConvivaInitBug_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConvivaInitBug_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B4F3D6D40F74C270CA6D4C19272EF5AF /* Pods-ConvivaInitBug_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConvivaInitBug_Example-dummy.m"; sourceTree = "<group>"; };
+		B646B4C7BB14AADC059F14A1D79EF122 /* ConvivaInitBug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConvivaInitBug.xcconfig; sourceTree = "<group>"; };
+		BF83EC906E134224A635645760BAB0D6 /* Pods_ConvivaInitBug_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConvivaInitBug_Example.framework; path = "Pods-ConvivaInitBug_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23682061E71DFCBE7B504F9B66BBACE /* Pods-ConvivaInitBug_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConvivaInitBug_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D68C0D54A282702993FDC5628AF64DB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7201BED06EF6FE3A179883F65187BF0 /* Pods-ConvivaInitBug_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConvivaInitBug_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E18872F8138E6D2F0DA8DF1F7C809916 /* Pods-ConvivaInitBug_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvivaInitBug_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1FD62C048AC2FCF61663A66BFA61B9E /* ConvivaInitBug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConvivaInitBug-umbrella.h"; sourceTree = "<group>"; };
+		F305C9286B369632663DD9E95883B1EA /* Pods-ConvivaInitBug_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConvivaInitBug_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC6DEB5E65E98DFF76399639ED3C785A /* ConvivaInitBug-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConvivaInitBug-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C7EA1CB3441D5D451DFE8907BCB55B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1A10C674D09175485D3FE6D414A1B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFF25C3F0E1DA2FA6CE90F8F4C3A9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4B0F0338D726614415F6C802F48FAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8228AA2EB4FA8E3A62CCAAD073D417DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF7E8BBCA215CC1A87C4CC501FB1948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3058F64BA05638897EE0E746C4B4BCAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A36A5154D603877CB1F639A590D6B93E /* Pods-ConvivaInitBug_Example */,
+				8D52336E6B5D6FDABE3C696C5DAEF15D /* Pods-ConvivaInitBug_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E6DB5618E3AF387C9AC7EFA9EF0AF71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A2F8E841BE86BE0C827323353BEBBDB /* ConvivaInitBug.framework */,
+				BF83EC906E134224A635645760BAB0D6 /* Pods_ConvivaInitBug_Example.framework */,
+				1427B9B25CCC6D6CC3075C61E6839A2C /* Pods_ConvivaInitBug_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B3A8E64526563136523AE7BCAC34C61 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				685CE5A396E7C7B002E8CF779320AAF8 /* ConvivaInitBug.podspec */,
+				2F18FEDD955431F1B320A72692406EA5 /* LICENSE */,
+				D68C0D54A282702993FDC5628AF64DB1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8CC0225306AA18B7B3954BC96ADDD823 /* AnalyticsManager */ = {
+			isa = PBXGroup;
+			children = (
+				C10D03515990C0319AE4E75677FCB44C /* Frameworks */,
+			);
+			name = AnalyticsManager;
+			sourceTree = "<group>";
+		};
+		8D52336E6B5D6FDABE3C696C5DAEF15D /* Pods-ConvivaInitBug_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0CEF7F0C92726CD9CD0E1065EC634530 /* Pods-ConvivaInitBug_Tests.modulemap */,
+				C23682061E71DFCBE7B504F9B66BBACE /* Pods-ConvivaInitBug_Tests-acknowledgements.markdown */,
+				79F7FE8EAD8BEBC1D7879500A76162F9 /* Pods-ConvivaInitBug_Tests-acknowledgements.plist */,
+				69FD49C5B1AFA2F04F50BA0219A541FC /* Pods-ConvivaInitBug_Tests-dummy.m */,
+				6E64E49638C7914B417153BAAD4FAF44 /* Pods-ConvivaInitBug_Tests-Info.plist */,
+				87D808C158454FED67DA82F48EEC3E88 /* Pods-ConvivaInitBug_Tests-umbrella.h */,
+				F305C9286B369632663DD9E95883B1EA /* Pods-ConvivaInitBug_Tests.debug.xcconfig */,
+				2ADBC8ED4A5BED18CB4720B3C7D47214 /* Pods-ConvivaInitBug_Tests.release.xcconfig */,
+			);
+			name = "Pods-ConvivaInitBug_Tests";
+			path = "Target Support Files/Pods-ConvivaInitBug_Tests";
+			sourceTree = "<group>";
+		};
+		A30BABD947D9F56987725525AF0F1EF4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F68D5CA7027A8BEAC956C4AD10A75CDD /* ConvivaInitBug */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A36A5154D603877CB1F639A590D6B93E /* Pods-ConvivaInitBug_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4AD8250DB05031CD556A075D69369F3D /* Pods-ConvivaInitBug_Example.modulemap */,
+				D7201BED06EF6FE3A179883F65187BF0 /* Pods-ConvivaInitBug_Example-acknowledgements.markdown */,
+				6BD8C559FA90228D0928CDF47CB18DEC /* Pods-ConvivaInitBug_Example-acknowledgements.plist */,
+				B4F3D6D40F74C270CA6D4C19272EF5AF /* Pods-ConvivaInitBug_Example-dummy.m */,
+				B01A8A7EB15BB56F406C70D8DC5E01F1 /* Pods-ConvivaInitBug_Example-frameworks.sh */,
+				87E8754F7031E0C3838BC8356C6F0624 /* Pods-ConvivaInitBug_Example-Info.plist */,
+				8D7BE67471F0136A8761E52B6148DCDF /* Pods-ConvivaInitBug_Example-umbrella.h */,
+				4B140ECBD0A2847669A9D1F2B665276B /* Pods-ConvivaInitBug_Example.debug.xcconfig */,
+				E18872F8138E6D2F0DA8DF1F7C809916 /* Pods-ConvivaInitBug_Example.release.xcconfig */,
+			);
+			name = "Pods-ConvivaInitBug_Example";
+			path = "Target Support Files/Pods-ConvivaInitBug_Example";
+			sourceTree = "<group>";
+		};
+		BDF7895B2D0F3600C7B33FFA45D03133 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87BE16A3F7483FB5E21EE1806F355642 /* ConvivaInitBug.modulemap */,
+				B646B4C7BB14AADC059F14A1D79EF122 /* ConvivaInitBug.xcconfig */,
+				6AEDC3EE91F18BE0D1D6992585ED6F6E /* ConvivaInitBug-dummy.m */,
+				FC6DEB5E65E98DFF76399639ED3C785A /* ConvivaInitBug-Info.plist */,
+				AFFF58B1C3C0236BE7A66EEE44FCD1F3 /* ConvivaInitBug-prefix.pch */,
+				E1FD62C048AC2FCF61663A66BFA61B9E /* ConvivaInitBug-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ConvivaInitBug";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C10D03515990C0319AE4E75677FCB44C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D66657D721AC6ED6E6A58950CA7B1F6 /* ConvivaAVFoundation.framework */,
+				113EFA8470D410716F737228BEF3C7D9 /* ConvivaCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A30BABD947D9F56987725525AF0F1EF4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3E6DB5618E3AF387C9AC7EFA9EF0AF71 /* Products */,
+				3058F64BA05638897EE0E746C4B4BCAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F68D5CA7027A8BEAC956C4AD10A75CDD /* ConvivaInitBug */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BB5477FCC1FA79F64E8E8E184EE5E /* ReplaceMe.swift */,
+				8CC0225306AA18B7B3954BC96ADDD823 /* AnalyticsManager */,
+				5B3A8E64526563136523AE7BCAC34C61 /* Pod */,
+				BDF7895B2D0F3600C7B33FFA45D03133 /* Support Files */,
+			);
+			name = ConvivaInitBug;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53D222C7C9D3256D134D6105E67FF411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D04AC660F4F1961A62D6B5384F15020 /* ConvivaInitBug-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672AE378EFE91EC98C6CECB4D7763EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D3C354135C047C1EC9A2698F78A917 /* Pods-ConvivaInitBug_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E065DBBDF4DFD22998691072BABAEA06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C964A72CB47762A7649F8E78F50A5F /* Pods-ConvivaInitBug_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DD1B72C0995DA3330563DD5DA5D391C /* ConvivaInitBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2D5951F801DEB54A58433307990664 /* Build configuration list for PBXNativeTarget "ConvivaInitBug" */;
+			buildPhases = (
+				53D222C7C9D3256D134D6105E67FF411 /* Headers */,
+				34CCA769E840ECEAA97837FCDC6B1071 /* Sources */,
+				0C7EA1CB3441D5D451DFE8907BCB55B2 /* Frameworks */,
+				B9E8516525646E7DA2FBBEB4D981EEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvivaInitBug;
+			productName = ConvivaInitBug;
+			productReference = 6A2F8E841BE86BE0C827323353BEBBDB /* ConvivaInitBug.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		617E38684E9F8E4ECFD217B7BD533F89 /* Pods-ConvivaInitBug_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794B8AC249D6B4980C9A716673379033 /* Build configuration list for PBXNativeTarget "Pods-ConvivaInitBug_Example" */;
+			buildPhases = (
+				E065DBBDF4DFD22998691072BABAEA06 /* Headers */,
+				1E7A4FFA23D78484B150A9C829E182A4 /* Sources */,
+				6EFF25C3F0E1DA2FA6CE90F8F4C3A9C1 /* Frameworks */,
+				626781EBE2C3F807407C09F70304AB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB06AE714185154DF2A8911A444BCAC /* PBXTargetDependency */,
+			);
+			name = "Pods-ConvivaInitBug_Example";
+			productName = "Pods-ConvivaInitBug_Example";
+			productReference = BF83EC906E134224A635645760BAB0D6 /* Pods_ConvivaInitBug_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7EABE404353FAE8255F16C549752E19 /* Pods-ConvivaInitBug_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F973C1A141A88956FEF86AFE38201B6 /* Build configuration list for PBXNativeTarget "Pods-ConvivaInitBug_Tests" */;
+			buildPhases = (
+				672AE378EFE91EC98C6CECB4D7763EC4 /* Headers */,
+				5F03FEB15ACA7DD232679868FB6F4635 /* Sources */,
+				8228AA2EB4FA8E3A62CCAAD073D417DE /* Frameworks */,
+				FA86D82EF180B9CC02F0691E5CC53527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38FA7F377F73D344E823BFA366B7D64 /* PBXTargetDependency */,
+			);
+			name = "Pods-ConvivaInitBug_Tests";
+			productName = "Pods-ConvivaInitBug_Tests";
+			productReference = 1427B9B25CCC6D6CC3075C61E6839A2C /* Pods_ConvivaInitBug_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3E6DB5618E3AF387C9AC7EFA9EF0AF71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD1B72C0995DA3330563DD5DA5D391C /* ConvivaInitBug */,
+				617E38684E9F8E4ECFD217B7BD533F89 /* Pods-ConvivaInitBug_Example */,
+				C7EABE404353FAE8255F16C549752E19 /* Pods-ConvivaInitBug_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		626781EBE2C3F807407C09F70304AB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E8516525646E7DA2FBBEB4D981EEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86D82EF180B9CC02F0691E5CC53527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7A4FFA23D78484B150A9C829E182A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D21064F9B97A0423FC1DADB69C828A7 /* Pods-ConvivaInitBug_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CCA769E840ECEAA97837FCDC6B1071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEEDF63E5DD504D7844588A0541F533 /* ConvivaInitBug-dummy.m in Sources */,
+				15812709CA2F640F976AEFD63A2D47B6 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F03FEB15ACA7DD232679868FB6F4635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1BE523253FA7C83577AFE545D3279C /* Pods-ConvivaInitBug_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB06AE714185154DF2A8911A444BCAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConvivaInitBug;
+			target = 2DD1B72C0995DA3330563DD5DA5D391C /* ConvivaInitBug */;
+			targetProxy = D0569A8EB154692E57F36DB88B4184E7 /* PBXContainerItemProxy */;
+		};
+		F38FA7F377F73D344E823BFA366B7D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ConvivaInitBug_Example";
+			target = 617E38684E9F8E4ECFD217B7BD533F89 /* Pods-ConvivaInitBug_Example */;
+			targetProxy = 2003EAEAB74487A6F62CE1DE0C2413A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AA77970DEAF4CF5D8F6248F45681454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADBC8ED4A5BED18CB4720B3C7D47214 /* Pods-ConvivaInitBug_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConvivaInitBug_Tests/Pods-ConvivaInitBug_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConvivaInitBug_Tests/Pods-ConvivaInitBug_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5A74C1999E508A6EFF75CAC7A1F5AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B646B4C7BB14AADC059F14A1D79EF122 /* ConvivaInitBug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConvivaInitBug/ConvivaInitBug-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConvivaInitBug/ConvivaInitBug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConvivaInitBug/ConvivaInitBug.modulemap";
+				PRODUCT_MODULE_NAME = ConvivaInitBug;
+				PRODUCT_NAME = ConvivaInitBug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D75C7F2503775840ED343D7796BC8534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B140ECBD0A2847669A9D1F2B665276B /* Pods-ConvivaInitBug_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConvivaInitBug_Example/Pods-ConvivaInitBug_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConvivaInitBug_Example/Pods-ConvivaInitBug_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E010FDD58B6EB5656E1F1698369930F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F305C9286B369632663DD9E95883B1EA /* Pods-ConvivaInitBug_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConvivaInitBug_Tests/Pods-ConvivaInitBug_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConvivaInitBug_Tests/Pods-ConvivaInitBug_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E26B109391212196654294C003202A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B646B4C7BB14AADC059F14A1D79EF122 /* ConvivaInitBug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConvivaInitBug/ConvivaInitBug-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConvivaInitBug/ConvivaInitBug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConvivaInitBug/ConvivaInitBug.modulemap";
+				PRODUCT_MODULE_NAME = ConvivaInitBug;
+				PRODUCT_NAME = ConvivaInitBug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0336CEDF0F218E5C27965108206338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18872F8138E6D2F0DA8DF1F7C809916 /* Pods-ConvivaInitBug_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConvivaInitBug_Example/Pods-ConvivaInitBug_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConvivaInitBug_Example/Pods-ConvivaInitBug_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794B8AC249D6B4980C9A716673379033 /* Build configuration list for PBXNativeTarget "Pods-ConvivaInitBug_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75C7F2503775840ED343D7796BC8534 /* Debug */,
+				FF0336CEDF0F218E5C27965108206338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F973C1A141A88956FEF86AFE38201B6 /* Build configuration list for PBXNativeTarget "Pods-ConvivaInitBug_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E010FDD58B6EB5656E1F1698369930F0 /* Debug */,
+				2AA77970DEAF4CF5D8F6248F45681454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2D5951F801DEB54A58433307990664 /* Build configuration list for PBXNativeTarget "ConvivaInitBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A74C1999E508A6EFF75CAC7A1F5AFE /* Debug */,
+				E26B109391212196654294C003202A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

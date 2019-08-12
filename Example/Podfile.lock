@@ -1,0 +1,18 @@
+PODS:
+  - ConvivaInitBug (0.1.0):
+    - ConvivaInitBug/AnalyticsManager (= 0.1.0)
+  - ConvivaInitBug/AnalyticsManager (0.1.0)
+
+DEPENDENCIES:
+  - ConvivaInitBug (from `../`)
+
+EXTERNAL SOURCES:
+  ConvivaInitBug:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConvivaInitBug: 8f0b0599dfafad2a465db5465b6cfe620cd1fc1c
+
+PODFILE CHECKSUM: 668cd56ebe92a833a2e13ba91a274179571d4727
+
+COCOAPODS: 1.7.5

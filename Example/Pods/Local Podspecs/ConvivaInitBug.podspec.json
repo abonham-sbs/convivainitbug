@@ -1,0 +1,33 @@
+{
+  "name": "ConvivaInitBug",
+  "version": "0.1.0",
+  "summary": "A short description of ConvivaInitBug.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Aaron Bonham/ConvivaInitBug",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aaron Bonham": "aaron.bonham@sbs.com.au"
+  },
+  "source": {
+    "git": "https://github.com/Aaron Bonham/ConvivaInitBug.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ConvivaInitBug/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "AnalyticsManager",
+      "ios": {
+        "vendored_frameworks": [
+          "ConvivaInitBug/Vendor/iOS/ConvivaAVFoundation.framework",
+          "ConvivaInitBug/Vendor/iOS/ConvivaCore.framework"
+        ]
+      }
+    }
+  ]
+}

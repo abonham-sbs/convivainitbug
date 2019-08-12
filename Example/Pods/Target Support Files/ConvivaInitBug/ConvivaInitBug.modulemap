@@ -1,0 +1,6 @@
+framework module ConvivaInitBug {
+  umbrella header "ConvivaInitBug-umbrella.h"
+
+  export *
+  module * { export * }
+}

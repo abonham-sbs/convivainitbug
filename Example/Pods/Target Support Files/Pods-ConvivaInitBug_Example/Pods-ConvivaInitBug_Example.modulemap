@@ -1,0 +1,6 @@
+framework module Pods_ConvivaInitBug_Example {
+  umbrella header "Pods-ConvivaInitBug_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
